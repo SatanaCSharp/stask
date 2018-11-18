@@ -1,0 +1,9 @@
+.content {
+    width: 350px;
+    margin: 5% 10%;
+}
+.wrapper-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
