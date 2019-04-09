@@ -7,32 +7,110 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+<div class="settings">
+    <div class="i-block">
+        <div class="setting settings__i7">
+            <span class="title-i7">Select I7 signals: </span>
+            <div class="i7-select-values">
+                <select name="i7-0" class="i7-select" id="i7-0">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i7-1" class="i7-select" id="i7-1">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i7-2" class="i7-select" id="i7-2">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i7-3" class="i7-select" id="i7-3">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i7-4" class="i7-select" id="i7-4">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i7-5" class="i7-select" id="i7-5">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+            </div>
+        </div>
+        <div class="setting settings__i6">
+            <span class="title-i6">Select I6 signals: </span>
+            <div class="i6-select-values">
+                <select name="i6-0" class="i6-select" id="i6-0">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i6-1" class="i6-select" id="i6-1">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i6-2" class="i6-select" id="i6-2">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i6-3" class="i6-select" id="i6-3">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i6-4" class="i6-select" id="i6-4">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+                <select name="i6-5" class="i6-select" id="i6-5">
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="m-block">
+        <div class="setting settings__m1">
+            <span class="title-M1">Select M1 method of building: </span>
+            <div class="M1-select-values">
+                <select name="M1" class="M1-select" id="M1">
+                    <option value="0">OR</option>
+                    <option value="1">AND</option>
+                    <option value="2">XOR</option>
+                    <option value="3">OR NOT</option>
+                    <option value="4">AND NOT</option>
+                    <option value="4">XOR NOT</option>
+                </select>
+            </div>
+        </div>
+        <div class="setting settings__m2">
+            <span class="title-M2">Select M2 method of building: </span>
+            <div class="M2-select-values">
+                <select name="M2" class="M2-select" id="M2">
+                    <option value="0">OR</option>
+                    <option value="1">AND</option>
+                    <option value="2">XOR</option>
+                    <option value="3">OR NOT</option>
+                    <option value="4">AND NOT</option>
+                    <option value="4">XOR NOT</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="btn-draw-grafiks">Draw Grafiks</div>
+</div>
 <div class="wrapper-content">
     <div class="content">
-        <canvas id="I6" width="200" height="200"></canvas>
-    </div>
-
-    <div class="content">
-        <canvas id="I7" width="200" height="200"></canvas>
-    </div>
-
-    <div class="content">
-        <canvas id="M1" width="200" height="200"></canvas>
-    </div>
-
-    <div class="content">
-        <canvas id="M2" width="200" height="200"></canvas>
+        <canvas id="chart" width="200" height="200"></canvas>
     </div>
 </div>
-
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
-<script src="scripts/chart.js"></script>
+<script src="scripts/app.js" type="module" crossorigin="anonymous"></script>
 </body>
 </html>
