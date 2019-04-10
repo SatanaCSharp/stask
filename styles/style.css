@@ -1,9 +1,95 @@
-.content {
-    width: 350px;
-    margin: 5% 10%;
+* {
+    margin: 0;
+    padding: 0;
 }
-.wrapper-content{
+
+
+.wrapper-content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+}
+
+.content {
+    width: 30%;
+    margin: 5% 10%;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+    padding: 20px 0 0 45px;
+}
+
+.i-block {
+    width: 45%;
+}
+
+.m-block {
+    width: 35%;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.i7-select, .i6-select {
+    width: 40px;
+    background-color: #fff;
+    color: #000;
+    border-color: #c5c5c5;
+    border-radius: 50px;
+}
+
+.i7-select:hover {
+    cursor: pointer;
+}
+
+.i6-select:hover {
+    cursor: pointer;
+}
+
+.M1-select {
+    width: 90px;
+    background-color: #fff;
+    color: #000;
+    border-color: #c5c5c5;
+    border-radius: 50px;
+}
+
+.M1-select:hover {
+    cursor: pointer;
+}
+
+.M2-select {
+    width: 90px;
+    background-color: #fff;
+    color: #000;
+    border-color: #c5c5c5;
+    border-radius: 50px;
+}
+
+.M2-select:hover {
+    cursor: pointer;
+}
+
+.btn-draw-charts {
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #2aa542;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.btn-draw-charts:hover {
+    cursor: pointer;
+    background-color: #34d252;
 }
