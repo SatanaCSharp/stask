@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ea5734-1c0b-4eed-a744-c065f74669a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/modules/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/modules/observers/observable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/modules/observers/observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/modules/getSignals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/modules/renderCharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupI6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupI7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupM1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupM2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modules/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modules/observers/observable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modules/observers/observer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modules/setups/charts/setupChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/modules/setups/charts/setupChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modules/setups/charts/setupI6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modules/setups/charts/setupI7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modules/setups/charts/setupM1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/modules/setups/charts/setupM2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,31 +30,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/scripts/modules/operations/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="34" />
               <folding>
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/app.js">
+        <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupM1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="153">
+              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/modules/chart.js">
+        <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupM2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="85">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,16 +88,35 @@
         <option value="$PROJECT_DIR$/scripts/modules/setups/grafiks/setupM2.js" />
         <option value="$PROJECT_DIR$/scripts/modules/setups/grafiks/setupI7.js" />
         <option value="$PROJECT_DIR$/scripts/modules/setups/grafiks/setupI6.js" />
+        <option value="$PROJECT_DIR$/Lisana/js/script.js" />
+        <option value="$PROJECT_DIR$/styles/style.css" />
+        <option value="$PROJECT_DIR$/scripts/modules/getValues.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/getMSignals.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/getISignals.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scripts/modules/observers/observer_or.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/observers/observer_and.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/observers/observerXor.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/observers/observerNor.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/observers/observerNxor.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/observers/observerAnd.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/observers/observerNand.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/operations/operationNor.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/operations/operationNxor.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/operations/operationOr.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/operations/operationXor.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/run.js" />
         <option value="$PROJECT_DIR$/scripts/modules/chart.js" />
         <option value="$PROJECT_DIR$/scripts/modules/setups/charts/setupI6.js" />
         <option value="$PROJECT_DIR$/scripts/modules/setups/charts/setupI7.js" />
-        <option value="$PROJECT_DIR$/scripts/modules/setups/charts/setupChart.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scripts/app.js" />
-        <option value="$PROJECT_DIR$/Lisana/js/script.js" />
-        <option value="$PROJECT_DIR$/scripts/modules/setups/charts/setupM2.js" />
         <option value="$PROJECT_DIR$/scripts/modules/setups/charts/setupM1.js" />
-        <option value="$PROJECT_DIR$/styles/style.css" />
+        <option value="$PROJECT_DIR$/scripts/modules/setups/charts/setupM2.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/setups/charts/setupChart.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/operations/index.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/setups/charts/signals/index.js" />
+        <option value="$PROJECT_DIR$/scripts/app.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupM1.js" />
+        <option value="$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupM2.js" />
       </list>
     </option>
   </component>
@@ -122,6 +157,37 @@
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="stask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stask" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="operations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stask" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="setups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stask" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="setups" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stask" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="setups" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+              <item name="signals" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,6 +203,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/modules/setups/charts/signals" />
       <recent name="$PROJECT_DIR$/scripts/modules" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -190,18 +257,18 @@
       <workItem from="1554621686808" duration="7573000" />
       <workItem from="1554674018578" duration="106000" />
       <workItem from="1554842726857" duration="99000" />
-      <workItem from="1554842879170" duration="4150000" />
+      <workItem from="1554842879170" duration="14696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19082000" />
+    <option name="totallyTimeSpent" value="29628000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1039" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="727" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14180285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20029785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -233,23 +300,6 @@
     <entry file="file://$PROJECT_DIR$/scripts/modules/observers/observer_create_subtask.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/setupChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/setupI6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lisana/js/modules/views/task_list_view.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -274,34 +324,6 @@
     <entry file="file://$PROJECT_DIR$/Lisana/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/modules/observers/observable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/setupI7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/setupM2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/setupM1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lisana/js/modules/observers/observable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -319,41 +341,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/modules/observers/observer.js">
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="-943">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/scripts/modules/getMSignals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/observers/observable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        <state relative-caret-position="451">
+          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/observers/observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/operations/operationNand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/operations/operationNor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/operations/operationNxor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/operations/operationOr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/operations/operationXor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/renderCharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/setupChart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/operations/operationAnd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/operations/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="34" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupI6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupI7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/getSignals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/signals/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="85">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/modules/chart.js">
+    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupM1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/modules/setups/charts/signals/setupM2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

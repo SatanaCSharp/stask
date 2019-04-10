@@ -81,7 +81,7 @@
     cursor: pointer;
 }
 
-.btn-draw-grafiks {
+.btn-draw-charts {
     padding: 10px 15px;
     color: #ffffff;
     background-color: #2aa542;
@@ -89,7 +89,7 @@
     align-self: center;
 }
 
-.btn-draw-grafiks:hover {
+.btn-draw-charts:hover {
     cursor: pointer;
     background-color: #34d252;
 }
